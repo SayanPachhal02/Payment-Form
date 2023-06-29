@@ -1,0 +1,107 @@
+.heading
+{
+    font-family: Righteous, 'Righteous', Times, serif;
+    text-align: center;
+    color: navy;
+    font-weight: 900;
+    font-size: 25px;
+}
+.warning
+{
+    font-weight: 100;
+    text-align: center;
+}
+#hr
+{
+    color: black;
+    
+}
+body{
+    margin: 15px,30px;
+    padding: 8px;
+}
+.content{
+    font-family: Righteous, 'Righteous',times,serif;
+  font-size: 20px;
+  margin: 15px, 20px;
+  padding: 25px;
+  background-image: linear-gradient(to right,rgba(255, 250, 182, 0.678),rgba(255, 192, 236, 0.678),rgba(0, 0, 255, 0.438),rgba(255, 0, 0, 0.336));
+  
+  border: 1px solid black;
+  border-radius: 40px;
+}
+.star
+{
+    color: red;
+}
+h4
+{
+    text-align:inherit;
+    color: black;
+}
+input[type="text"]::placeholder
+input[type="date"]::placeholder
+{
+    text-align: center;
+}
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea
+{
+    text-align: center;
+    width: 100%;
+    border-radius: 500px;
+    border:1px solid grey;
+     padding: 6px;
+     margin: 8px;
+}
+fieldset
+{
+    border: 1px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+}
+select
+{
+        text-align: center;
+    width: 100%;
+    border-radius: 500px;
+    border:1px solid grey;
+     padding: 6px;
+     margin: 8px;
+}
+.Accepted_cards
+{
+    height: 8px;
+    width: 23%;
+}
+.card_type
+{
+    cursor: pointer;
+}
+button
+{
+     text-align: center;
+     font-weight: 800;
+     font-family: Kaushan Script, 'Kaushan Script', Times, serif;
+     font-size: 25px;
+     background-color: green;
+     color: white;
+     width: 100%;
+    border-radius: 50px;
+    border:1px solid grey;
+     padding: 6px;
+     margin: 8px;
+}
+button:hover
+{
+     background-color: orangered;
+}
+button:visited
+{
+    background-color: rgb(255, 0, 106);
+}
+

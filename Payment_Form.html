@@ -1,0 +1,67 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="newform.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Righteous&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<title>PAYMENT FORM</title>
+</head>
+<body>
+    <div class="content">
+        <form action="">
+    <div class="heading">
+        <h1> <u>PAYMENT FORM</u></h1>
+    </div>
+    <hr>
+    <hr>
+    <h4><sup class="star">*</sup><u> is reffered as mandatory</u></h4>
+    <h3><b><u>User Details:</u></b></h3>
+    <p>Name<sup class="star">*</sup>:<input type="text" name="name" id="name" , placeholder="Sayan Pachhal" required> </p>
+    <p>DOB<sup class="star">*</sup>:<input type="date" name="dob" id="dob"required></p>
+    <fieldset>
+        <legend>Gender<sup class="star">*</sup></legend>
+       Male <input type="radio" name="gender" id="gender" required >
+       <br>
+       Female <input type="radio" name="gender" id="gender" required >
+      <br>
+       Others <input type="radio" name="gender" id="gender" required >
+    </fieldset>
+    <p>Address:<br><textarea name="address" id="address" cols="40" rows="8"></textarea></p>
+     <p>PIN Code<sup class="star">*</sup>:<input type="number" name="pin" id="pin", placeholder="111111" required ></p>
+     <p>Mobile<sup class="star">*</sup>:<input type="number" name="Mobile" id="Mobile", placeholder=" 1234567890" required ></p>
+     <p>E-mail<sup class="star">*</sup>:<input type="email" name="e-mail" id=e-mail", placeholder="abcd@gmail.com" required ></p>
+     <h3><b><u>Payment Details:</u></b></h3>
+     Accepted Cards:
+     <div class="Accepted_cards">
+     <img src="https://www.paypal-community.com/t5/image/serverpage/image-id/31562iB3C1B0CE352A12FC?v=v2" width="28%" alt="Rupay Card">
+     <img src="https://banner2.cleanpng.com/20181109/lif/kisspng-credit-card-payment-mastercard-logo-5be5fb46d19816.5027498515417987268585.jpg" width="28%" alt="Master Card">
+     <img src="https://dharmamerchantservices.com/wp-content/uploads/2017/06/visa-logo-white-background.png" width="28%" alt="Visa Card">
+    
+    </div>
+    <br>
+    <br>
+    Card Type<sup class="star">*</sup>:
+     <br>
+          <select name="card_type" id="card_type" required>
+         <option value="">---Select Card Type---</option>
+        <option value="">Rupay</option>
+        <option value="">Master Card</option>
+        <option value="">Visa</option>
+        </select>
+     <p>Card Number<sup class="star">*</sup>:<input type="number" name="card_number" id="card_number", placeholder=" 1111-2222-3333-4444" required ></p>
+    <p>Expiry Date<sup class="star">*</sup>:<input type="date" name="exp_date" id="exp_date"required></p>
+     <p>CVV Number<sup class="star">*</sup>:<input type="password" name="cvv_number" id="cvv_number", placeholder="123" required ></p>
+  <button>
+      PAY NOW
+  </button>
+    </div>
+    </form>
+</body>
